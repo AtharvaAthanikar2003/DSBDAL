@@ -22,7 +22,7 @@ Your contributions are invaluable in enriching the repository and fostering a vi
 To run the assignments locally on your machine, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-   > git clone git@github.com:pranavmm14/DSBDAL.git
+   > ```git clone git@github.com:pranavmm14/DSBDAL.git```
 
 
 2. **Install Dependencies**: Ensure you have Jupyter Notebook installed on your system. If you're using Anaconda, it's likely already installed. If not, you can install it using Python's package manager pip. Open the command prompt and execute the following command:
