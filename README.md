@@ -1,13 +1,13 @@
 # Data Science and Big Data Analytics Laboratory Practicals
 
-Welcome to the Data Science and Big Data Analytics Laboratory Practicals repository! Here, you'll find a comprehensive collection of practical assignments designed as per the Savitribai Phule Pune University Syllabus for the 2019 Pattern. Whether you're a student, educator, or a curious mind eager to delve into the realms of data science and big data analytics, this repository aims to provide you with valuable resources and insights to excel in the subject.
+Welcome to my Data Science and Big Data Analytics Laboratory Practicals repository! Here, I've compiled a collection of practical assignments tailored to the syllabus of Savitribai Phule Pune University (SPPU) for the 2019 Pattern. As a student, I believe these resources will help me and my fellow classmates excel in the subject.
 
 ## Objectives
 
-- Align practical assignments with the Savitribai Phule Pune University Syllabus (2019 Pattern).
-- Provide hands-on exercises for real-world application of data science and big data analytics concepts.
-- Encourage community contributions and feedback to enhance the repository's quality.
-- Offer supporting material to aid in understanding and excel in the subject.
+- **Syllabus Alignment**: Ensure that the practical assignments align perfectly with the curriculum prescribed by SPPU.
+- **Hands-on Learning**: Provide hands-on exercises to gain practical experience in applying data science and big data analytics concepts.
+- **Community Engagement**: Welcome feedback and suggestions from classmates and educators to improve the quality and relevance of the assignments.
+- **Supporting Material**: Offer comprehensive resources to supplement learning and enhance understanding of the subject.
 
 ## How to Contribute
 
@@ -22,7 +22,7 @@ Your contributions are invaluable in enriching the repository and fostering a vi
 To run the assignments locally on your machine, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-   ``` git clone git@github.com:pranavmm14/DSBDAL.git ```
+   > git clone git@github.com:pranavmm14/DSBDAL.git
 
 
 2. **Install Dependencies**: Ensure you have Jupyter Notebook installed on your system. If you're using Anaconda, it's likely already installed. If not, you can install it using Python's package manager pip. Open the command prompt and execute the following command:
