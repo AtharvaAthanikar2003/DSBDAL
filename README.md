@@ -39,11 +39,8 @@ To run the assignments locally on your machine, follow these steps:
 
 ## Get Involved
 
-Join us in our mission to foster learning and innovation in the field of data science and big data analytics. Your participation and contributions are instrumental in shaping the future of this repository and empowering learners worldwide.
-
-Let's embark on this journey together and unlock the boundless potential of Data Science and Big Data Analytics!
+Join me in this learning journey! If you're a fellow student or educator at SPPU, feel free to contribute, provide feedback, or share additional resources. Together, let's make this repository a valuable asset for all students aiming to excel in Data Science and Big Data Analytics Laboratory Practicals.
 
 **Happy Learning!** 🚀
-
 
 
