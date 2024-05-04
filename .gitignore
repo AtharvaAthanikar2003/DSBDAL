@@ -1,3 +1,4 @@
 *.pdf
 *.docx
 .ipynb_checkpoints/
+DSBDAL_env/
