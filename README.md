@@ -48,14 +48,8 @@ To run the assignments locally on your machine, follow these steps:
 4. Install Scala
    ``` sudo apt install scala ```
 
-## Running Scala Assignment
-
-1. Navigate to code directory containing .scala file
-
-2. Compile Scala file
-   ```scalac filename.scala ```
-3. Run the program
-   ``` scala filename ```
+## Running Apache Spark-Scala Assignment 
+ Follow instructions in [Apache Spark Setup.md](https://github.com/pranavmm14/DSBDAL/blob/master/Apache%20Spark%20Setup.md).
 
 ## Get Involved
 
