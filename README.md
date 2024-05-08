@@ -37,6 +37,26 @@ To run the assignments locally on your machine, follow these steps:
 
 6. **Access Assignments**: Once Jupyter Notebook is launched, you can access the assignment files (.ipynb) in your browser. Click on the desired assignment to open and run it.
 
+## Scala Installation
+
+1. Check if you have openjdk-8 or above installed.
+   ```java --version```
+   
+3. If open-jdk not found use
+   ```sudo apt install openjdk-11-jdk```
+
+4. Install Scala
+   ``` sudo apt install scala ```
+
+## Running Scala Assignment
+
+1. Navigate to code directory containing .scala file
+
+2. Compile Scala file
+   ```scalac filename.scala ```
+3. Run the program
+   ``` scala filename ```
+
 ## Get Involved
 
 Join me in this learning journey! If you're a fellow student or educator at SPPU, feel free to contribute, provide feedback, or share additional resources. Together, let's make this repository a valuable asset for all students aiming to excel in Data Science and Big Data Analytics Laboratory Practicals.
