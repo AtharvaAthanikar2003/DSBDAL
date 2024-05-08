@@ -1,4 +1,6 @@
-To install Apache Spark, follow these steps:
+# Apache Spark Installation Instructions
+
+Follow these steps to install Apache Spark on your system:
 
 1. Navigate to your Downloads directory:
    ```
@@ -50,23 +52,23 @@ To install Apache Spark, follow these steps:
     cd spark/
     ```
 
-11. Print the current working directory to confirm the path:
+11. Print the current working directory to copy the path to clipboard:
     ```
-    pwd
-    ```
-
-12. Edit the .bashrc file to set environment variables:
-    ```
-    sudo gedit ~/.bashrc
+    pwd | clip
     ```
 
-13. Add the following lines at the end of the file:
+12. Edit the .bashrc file to set environment variables using Vim:
     ```
-    export SPARK_HOME=/home/pranav/Downloads/spark
+    vim ~/.bashrc
+    ```
+
+13. Add the following lines at the end of the file, replacing `<paste_path_here>` with the copied path:
+    ```
+    export SPARK_HOME=<paste_path_here>
     export PATH=$PATH:$SPARK_HOME/bin
     ```
 
-14. Save and close the file.
+14. Save the changes and exit Vim by pressing `Esc`, then typing `:wq` and pressing `Enter`.
 
 15. Return to the home directory:
     ```
@@ -83,22 +85,24 @@ To install Apache Spark, follow these steps:
     ls
     ```
 
-18. Open the input file for Spark processing (optional):
+## Main code starts here
+
+1. Create an input file for Spark processing by echoing a random sentence into a file named `input.txt`:
     ```
-    vim input.txt
+    echo "The quick brown fox jumps over the lazy dog" > input.txt
     ```
 
-19. View the contents of the input file (optional):
+2. View the contents of the input file to verify creation:
     ```
     cat input.txt
     ```
 
-20. Start the Spark shell:
+3. Start the Spark shell:
     ```
     spark-shell
     ```
 
-21. Run your Spark commands for data processing, such as:
+4. Run your Spark commands for data processing, such as:
     ```
     var a = sc.textFile("input.txt").flatMap(line=> line.split(" ")).map(word => (word,1));
     var b = a.reduceByKey(_ + _);
